@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d2634;
+    color: #9e9ea4;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d2634;
+  }
+  
+  .login-form {
+    background-color: #263043;
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: #2962ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0039cb;
+  }
+  
+  .forgot-password-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2962ff;
+    cursor: pointer;
+  }
+  
+  .forgot-password-link:hover {
+    color: #0039cb;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas:
+      "header header"
+      "sidebar main";
+    height: 100vh;
+  }
+  
+  .header {
+    grid-area: header;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+    background-color: #263043;
+    color: white;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+    background-color: #263043;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-list-item {
+    padding: 15px 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+  
+  .sidebar-list-item > a {
+    text-decoration: none;
+    color: #9e9ea4;
+    width: 100%;
+  }
+  
+  .main-container {
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .dashboard-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .user-accounts-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-account-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #263043;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d2634;
+  }
+  
+  .forgot-password-form {
+    background-color: #263043;
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .forgot-password-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .forgot-password-form button {
+    width: 150px;
+    padding: 15px;
+    background-color: #2962ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .forgot-password-form button:hover {
+    background-color: #0039cb;
+  }
+  /* Add styles for the buttons */
+button {
+  background-color: #2962ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0039cb;
+}
+
+/* Other existing styles */
+/* Add styles for the buttons */
+button {
+  background-color: #2962ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0039cb;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+/* Sidebar styles */
+.sidebar {
+  grid-area: sidebar;
+  background-color: #263043;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-list-item {
+  padding: 15px 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.sidebar-list-item > a {
+  text-decoration: none;
+  color: #9e9ea4;
+  width: 100%;
+}
+
+/* Other existing styles */
